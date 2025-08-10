@@ -85,7 +85,7 @@
   <script>
     async function loadStudents() {
       try {
-        const res = await fetch('http://a23805e4dd81246caab4cd122c0c0567-1998564976.ap-south-1.elb.amazonaws.com:5000/students'); // Your backend should expose this API
+        const res = await fetch('http://a2955817598304b0b9d446819c27b0dc-1592636155.ap-south-1.elb.amazonaws.com:5000/students'); // Your backend should expose this API
         if (!res.ok) throw new Error('Failed to fetch students');
         const students = await res.json();
 
